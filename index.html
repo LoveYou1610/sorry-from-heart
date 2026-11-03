@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إلى أجمل شخص في حياتي جنا ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Cairo',sans-serif;background:#fff5f7;color:#57313e;overflow-x:hidden}
+    .hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px 20px;background:linear-gradient(145deg,#fff5f7,#f8dce5);position:relative;overflow:hidden}
+    .hero:before{content:"♥";position:absolute;font-size:300px;color:rgba(255,255,255,.35);top:-80px;right:-70px;transform:rotate(-20deg)}
+    .hero-content{position:relative;z-index:1;max-width:650px}
+    .small-title{color:#a15c75;letter-spacing:2px;font-size:13px;margin-bottom:25px}
+    h1{font-size:clamp(32px,7vw,55px);line-height:1.5;color:#873e59;margin-bottom:15px}
+    .subtitle{font-size:17px;line-height:2;color:#875b6b;margin-bottom:30px}
+    button{border:none;font-family:inherit;cursor:pointer;transition:.3s}
+    .main-button{background:#a84d70;color:white;padding:15px 35px;border-radius:50px;font-size:16px;box-shadow:0 8px 20px #a84d7030}
+    .main-button:hover{transform:translateY(-3px);background:#8e3c5c}
+    section{padding:75px 20px}.container{max-width:800px;margin:auto}
+    .section-title{text-align:center;color:#873e59;font-size:30px;margin-bottom:35px}
+    .letter{background:white;padding:35px;border-radius:25px;box-shadow:0 10px 40px #873e5910;line-height:2.3;font-size:17px}
+    .letter p{margin-bottom:20px}.letter p:last-child{margin-bottom:0}
+    .highlight{color:#a84d70;font-weight:700}
+    .memories{background:#f9e7ed}
+    .memory-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+    .memory-card{background:white;border-radius:20px;padding:25px;text-align:center;box-shadow:0 8px 25px #873e590c}
+    .memory-card .emoji{font-size:35px;margin-bottom:12px}
+    .memory-card h3{color:#873e59;margin-bottom:10px;font-size:18px}
+    .memory-card p{color:#875b6b;line-height:1.9;font-size:14px}
+    .promise{text-align:center;background:#fff5f7}
+    .promise-text{font-size:19px;line-height:2.3;max-width:650px;margin:auto}
+    .final{text-align:center;padding:70px 20px 100px;background:linear-gradient(145deg,#f8dce5,#fff5f7)}
+    .final h2{color:#873e59;font-size:32px;margin-bottom:20px}
+    .final p{line-height:2.2;font-size:17px}
+    .heart{display:inline-block;color:#c94f78;animation:beat 1s infinite;font-size:45px;margin:20px}
+    footer{text-align:center;padding:20px;color:#a15c75;font-size:13px;background:#fff5f7}
+    .floating-heart{position:fixed;bottom:-30px;color:#d66d91;animation:floatUp 5s linear forwards;pointer-events:none;z-index:10}
+    @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}
+    @keyframes floatUp{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+    @media(max-width:500px){.letter{padding:25px;font-size:15px}.section-title{font-size:25px}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="small-title">A LITTLE SOMETHING FOR YOU</div>
+      <h1>إلى أجمل شخص في حياتي جنا❤️</h1>
+      <p class="subtitle">لأنك تستاهلي كلام أحلى من مجرد آسف،<br>ولأنك اغلي شخص عندي أكتر مما تتخيلي.</p>
+      <button class="main-button" onclick="openLetter()">افتحي رسالتك يا حبيبتي ❤️</button>
+    </div>
+  </header>
+  <main id="letter-section" style="display:none">
+    <section><div class="container">
+      <h2 class="section-title">من كل قلبي </h2>
+      <div class="letter">
+        <p>جنا</p>
+        <p>أنا عارف إني زعلتك كتير، وعارف إن اوقات كتير حسستك فيها إنك مش متقدرة، وإن مكانتك عندي مش قد اللي تستحقيه. وده أكتر حاجه مضايقني من نفسي.</p>
+        <p>إنتِ مش مجرد شخص بحبه، إنتِ أغلى إنسانة عندي، واللي وجودها في حياتي بيفرق معايا في كل حاجة. ومهما حاولت أوصفلك قيمتك عندي، الكلام لوحده مش كفاية.</p>
+        <p>أنا آسف على كل مرة حسستك فيها إنك مش مهمة، وعلى كل مرة كان المفروض أكون فيها أحنّ عليكي وأفهمك وأقدّرك أكتر.</p>
+        <p>مش عايز اعتذاري يبقى مجرد كلام حلو وخلاص. عايز أتعلم من اللي حصل، وأثبتلك بأفعالي إن مشاعرك تهمني، وإنك تستاهلي مني كل الحب والاهتمام.</p>
+        <p><span class="highlight">أنا بحبك، وبقدّرك، ومش عايز أكون سبب في زعلك.</span></p>
+        <p>ولو إنتِ محتاجة وقت، أنا هحترم ده. مش مستني منك تسامحيني لمجرد إني عملتلك موقع، أنا بس حبيت أوصلك إنك غالية عندي بجد.</p>
+        <p>حقك عليّا يا أجمل حاجة في حياتي. ❤️</p>
+      </div>
+    </div></section>
+    <section class="memories"><div class="container">
+      <h2 class="section-title">حاجات بحبها فيكي</h2>
+      <div class="memory-grid">
+        <div class="memory-card"><div class="emoji">🌷</div><h3>قلبك الجميل</h3><p>طيبتك وحنانك وحاجات كتير فيكي بتخليني أحبك كل يوم أكتر.</p></div>
+        <div class="memory-card"><div class="emoji">✨</div><h3>وجودك في حياتي</h3><p>وجودك بيفرق معايا، وبيخلّي الأيام العادية أحلى.</p></div>
+        <div class="memory-card"><div class="emoji">❤️</div><h3>كل تفاصيلك</h3><p>ضحكتك، كلامك، وحتى التفاصيل الصغيرة اللي يمكن متاخديش بالك منها.</p></div>
+      </div>
+    </div></section>
+    <section class="promise"><div class="container">
+      <h2 class="section-title">وعد مني ليكي</h2>
+      <p class="promise-text">أوعدك إني أحاول أكون أحسن في التعبير عن حبي، وأسمعك لما تكوني زعلانة، وأقدّر مشاعرك، وأفتكر دايمًا إن الحب مش كلام بس، الحب كمان اهتمام واحترام وأفعال.</p>
+    </div></section>
+    <section class="final">
+      <h2>إنتِ غالية عندي ❤️</h2>
+      <p>ومهما حصل، مشاعري ليكي مش حاجة بسيطة.<br>أنا بحبك، وبشكرك إنك في حياتي.</p>
+      <div class="heart">♥</div>
+      <p>من قلب بيحبك،<br><strong>حبيبك ❤️</strong></p>
+    </section>
+  </main>
+  <footer>معمول بكل الحب ❤️</footer>
+  <script>
+    function openLetter(){
+      const letter=document.getElementById("letter-section");
+      letter.style.display="block";
+      letter.scrollIntoView({behavior:"smooth"});
+      createHearts();
+    }
+    function createHearts(){
+      for(let i=0;i<25;i++){
+        setTimeout(()=>{
+          const heart=document.createElement("div");
+          heart.className="floating-heart";
+          heart.innerHTML="♥";
+          heart.style.left=Math.random()*100+"vw";
+          heart.style.fontSize=(15+Math.random()*25)+"px";
+          heart.style.animationDuration=(3+Math.random()*4)+"s";
+          document.body.appendChild(heart);
+          setTimeout(()=>heart.remove(),7000);
+        },i*100);
+      }
+    }
+  </script>
+</body>
+</html>
